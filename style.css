@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-image: url("https://source.unsplash.com/1600x900/?landscape");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;  
+}
+
+.container {
+    padding: 20px 20px;
+    border: 2px solid black;
+    border-radius: 30px;
+    width: 95%;
+    max-width: 420px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+}
+
+input {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 30px;
+    font-size: 20px;
+    background-color:rgba(14, 14, 14, 0.9);
+    color: white;
+    width: calc(100% - 100px);
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius:60px;
+    background-color:  rgba(14, 14, 14, 0.7);
+    float: right;
+    transition: 0.5s;
+}
+
+button:hover{
+    background-color: rgba(124, 124, 124, 0.4);
+}
+
+button:active {
+    background-color:  rgba(14, 14, 14, 0.7);
+
+}
+
+.lupa {
+    height: 20px;
+}
+
+.container-text {
+    margin-top: 30px;
+}
+
+h2 {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.descricao {
+    margin: 20px 0px 20px 5px;
+    text-transform: capitalize;
+}
+
+.container-icone {
+    display: flex;
+    align-items: center;
+}
